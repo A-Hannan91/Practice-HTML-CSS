@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practice Day-4b</title>
+    <link rel="stylesheet" href="./Style.3.css" type="text/css" />
+  </head>
+  <body>
+    <h3>Please Fill this Form for Checkout</h3>
+    <br />
+    <hr />
+    <form action="https://www.example.com/login.php">
+      <p>
+        <span>Prefrence</span>
+        <select class="background" name="prefrence">
+          <option value="mr" selected>Mr.</option>
+          <option value="mrs">Mrs.</option>
+          <option value="miss">Miss.</option>
+          <option value="dr">Dr.</option>
+        </select>
+      </p>
+      <br />
+      <p>
+        <span>First Name:</span>
+        <input
+          class="background"
+          type="text"
+          name="fname"
+          size="15"
+          maxlength="20"
+          required
+          placeholder="Jhon"
+        />
+        <span class="gap">Last Name:</span>
+        <input
+          class="background"
+          type="text"
+          name="lname"
+          size="15"
+          maxlength="20"
+          required
+          placeholder="Doe"
+        />
+      </p>
+      <br />
+      <p>
+        <span>Gender:</span>
+        <br />
+        <label class="box"
+          ><input type="radio" name="gender" value="male" checked="checked" />
+          Male</label
+        >
+        <label class="box"
+          ><input type="radio" name="gender" value="female" /> Female</label
+        >
+        <label class="box"
+          ><input type="radio" name="gender" value="Other" /> Other</label
+        >
+      </p>
+
+      <br />
+      <p>
+        <span>Date of Birth:</span>
+        <input class="background" class="gap" type="date" />
+      </p>
+      <br />
+      <p>
+        <span>Complete Address:</span> <br />
+        <input
+          class="background"
+          type="text"
+          name="Address"
+          size="70"
+          maxlength="60"
+          required
+        />
+      </p>
+      <br />
+      <p>
+        <span>City</span>
+        <select name="City" class="background">
+          <option value="khi" selected>Karachi</option>
+          <option value="hyd">Hayderabad</option>
+          <option value="lah">Lahore</option>
+          <option value="isb">Islamabad</option>
+          <option value="rwp">Rawalpindi</option>
+          <option value="qut">Quetta</option>
+          <option value="pwr">Pishawar</option>
+        </select>
+        <span class="gap">Postal Code:</span>
+        <input
+          class="background"
+          type="text"
+          size="10"
+          maxlength="10"
+          placeholder="7xxxx"
+        />
+      </p>
+      <p>
+        <span>Contact:</span>
+        <input
+          class="background"
+          type="email"
+          name="email"
+          required
+          placeholder="Email Id (abc@xyz.com)"
+        />
+        <input
+          class="background"
+          class="gap"
+          type="text"
+          name="mob number"
+          size="25"
+          required
+          placeholder="Mob Number (03xxxxxxxxx)"
+        />
+      </p>
+      <h4>Please select your Delivery prefrence:</h4>
+      <p>
+        On What Day you want your delivery to be shipped? <br />
+        <label class="box"
+          ><input
+            type="checkbox"
+            name="day"
+            value="week-day"
+            checked="checked"
+          />Week Day</label
+        >
+        <label class="box"
+          ><input type="checkbox" name="day" value="weekend" />Weekend</label
+        >
+        <label class="box"
+          ><input type="checkbox" name="day" value="any-day" />Any Day</label
+        >
+      </p>
+      <p>
+        On What Time you want your delivery to be shipped? <br />
+        <input class="background" class="check" type="time" /> to
+        <input class="background" class="check" type="time" />
+      </p>
+      <p>
+        Please write any more prefrence you want to add: <br />
+        <textarea class="background" name="comments" cols="30" rows="4">
+Any Instructions to the rider.</textarea
+        >
+      </p>
+      <input class="button" type="submit" value="Checkout" />
+    </form>
+    <br />
+    <hr />
+    <a href="./Index.html" target="_blank">Home Page</a>
+  </body>
+</html>

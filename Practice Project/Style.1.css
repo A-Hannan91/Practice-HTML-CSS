@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Josefin-Sans;
+  src: url(../Fonts/Josefin-Sans/JosefinSans-Regular.ttf);
+}
+
+* {
+  font-family: Josefin-Sans;
+}
+
+body {
+  background-color: #ffde03;
+  color: crimson;
+  font-weight: lighter;
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  color: darkred;
+  text-decoration: underline;
+}
+
+h2,
+h3 {
+  color: darkred;
+  text-decoration: underline;
+}
+
+.defi {
+  border: 4px darkred solid;
+  border-style: groove;
+  border-radius: 20px;
+  box-shadow: 10px 5px 8px 5px #635e2add;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin: 20px 15px;
+}
+
+.img-2 {
+  width: 300px;
+  height: 300px;
+}
+
+.table {
+  display: inline-table;
+  width: 600px;
+}
+th,
+td {
+  padding: 7px 10px 10px 10px;
+}
+th {
+  letter-spacing: 0.2em;
+  border-bottom: 4px solid #908016;
+  font-size: 90%;
+}
+th.side {
+  text-transform: uppercase;
+  text-align: left;
+}
+tr.even {
+  background-color: #bfb052;
+}

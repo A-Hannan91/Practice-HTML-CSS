@@ -1,0 +1,58 @@
+body {
+  background-color: #ffde03;
+  color: crimson;
+  text-align: center;
+  width: 700px;
+  position: absolute;
+  left: 20%;
+  right: 25%;
+}
+
+fieldset {
+  width: 350px;
+  border: 1px solid #908016;
+  border-radius: 10px;
+  margin: 30px;
+  margin-left: 15%;
+  padding: 20px;
+  text-align: left;
+}
+legend {
+  background-color: #bfb052;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline #908016;
+}
+label {
+  font-size: 18px;
+  font-stretch: extra-condensed;
+}
+.login {
+  margin: 10px;
+  padding: 5px;
+  width: 400px;
+  text-decoration: underline;
+}
+.input {
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+  background-color: #bfb052;
+  color: #4e4508;
+  border: 2px solid #908016;
+  box-shadow: inset 0px 2px 3px 0px #908016;
+}
+button {
+  color: #444;
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+  text-shadow: 0px 1px 1px #fff;
+  border: 2px solid #908016;
+  background-color: #bfb052;
+  box-shadow: inset 0px 0px 3px 0px #4e4508;
+}
